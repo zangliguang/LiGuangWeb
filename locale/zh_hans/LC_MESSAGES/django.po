@@ -1,0 +1,103 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-09-16 04:24+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: LiGuangWeb/settings.py:130
+msgid "Arabic"
+msgstr ""
+
+#: LiGuangWeb/settings.py:131
+msgid "Catalan"
+msgstr ""
+
+#: LiGuangWeb/settings.py:132
+msgid "Czech"
+msgstr ""
+
+#: LiGuangWeb/settings.py:133
+msgid "Danish"
+msgstr ""
+
+#: LiGuangWeb/settings.py:134
+msgid "German"
+msgstr ""
+
+#: LiGuangWeb/settings.py:135
+msgid "British English"
+msgstr ""
+
+#: LiGuangWeb/settings.py:136
+msgid "Greek"
+msgstr ""
+
+#: LiGuangWeb/settings.py:137
+msgid "Spanish"
+msgstr ""
+
+#: LiGuangWeb/settings.py:138
+msgid "Finnish"
+msgstr ""
+
+#: LiGuangWeb/settings.py:139
+msgid "French"
+msgstr ""
+
+#: LiGuangWeb/settings.py:140
+msgid "Italian"
+msgstr ""
+
+#: LiGuangWeb/settings.py:141
+msgid "Korean"
+msgstr ""
+
+#: LiGuangWeb/settings.py:142
+msgid "Dutch"
+msgstr ""
+
+#: LiGuangWeb/settings.py:143
+msgid "Polish"
+msgstr ""
+
+#: LiGuangWeb/settings.py:144
+msgid "Portuguese"
+msgstr ""
+
+#: LiGuangWeb/settings.py:145
+msgid "Brazilian Portuguese"
+msgstr ""
+
+#: LiGuangWeb/settings.py:146
+msgid "Romanian"
+msgstr ""
+
+#: LiGuangWeb/settings.py:147
+msgid "Russian"
+msgstr ""
+
+#: LiGuangWeb/settings.py:148
+msgid "Slovak"
+msgstr ""
+
+#: LiGuangWeb/settings.py:149
+msgid "Ukrainian"
+msgstr ""
+
+#: LiGuangWeb/settings.py:150
+msgid "Simplified Chinese"
+msgstr ""
