@@ -1,8 +1,9 @@
+# -*- coding: utf-8 -*-
 from datetime import datetime
 
 from django.contrib.auth.models import User
 from django.db import models
-
+from django.utils.translation import ugettext_lazy as _
 # Create your models here.
 from phonenumber_field.modelfields import PhoneNumberField
 
@@ -15,7 +16,10 @@ class user(models.Model):
     birthday = models.DateField(default=datetime.now)
     email = models.EmailField(blank=True)
     image = models.ImageField(blank=True)
-    phonenum = PhoneNumberField(blank=True)
+
+    class Meta:
+        verbose_name = _("User")
+        verbose_name_plural = _("User List")
 
     def __str__(self):
         return self.user.username

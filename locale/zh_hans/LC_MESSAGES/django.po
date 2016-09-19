@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-09-16 04:24+0000\n"
+"POT-Creation-Date: 2016-09-19 09:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,86 +18,18 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: LiGuangWeb/settings.py:130
-msgid "Arabic"
-msgstr ""
+#: ecommerce/config.py:7
+msgid "Ecommerce"
+msgstr "电商"
 
-#: LiGuangWeb/settings.py:131
-msgid "Catalan"
-msgstr ""
+#: ecommerce/config.py:8
+msgid "Ecommerce List"
+msgstr "电商列表"
 
-#: LiGuangWeb/settings.py:132
-msgid "Czech"
-msgstr ""
+#: ecommerce/models.py:21
+msgid "User"
+msgstr "电商用户"
 
-#: LiGuangWeb/settings.py:133
-msgid "Danish"
-msgstr ""
-
-#: LiGuangWeb/settings.py:134
-msgid "German"
-msgstr ""
-
-#: LiGuangWeb/settings.py:135
-msgid "British English"
-msgstr ""
-
-#: LiGuangWeb/settings.py:136
-msgid "Greek"
-msgstr ""
-
-#: LiGuangWeb/settings.py:137
-msgid "Spanish"
-msgstr ""
-
-#: LiGuangWeb/settings.py:138
-msgid "Finnish"
-msgstr ""
-
-#: LiGuangWeb/settings.py:139
-msgid "French"
-msgstr ""
-
-#: LiGuangWeb/settings.py:140
-msgid "Italian"
-msgstr ""
-
-#: LiGuangWeb/settings.py:141
-msgid "Korean"
-msgstr ""
-
-#: LiGuangWeb/settings.py:142
-msgid "Dutch"
-msgstr ""
-
-#: LiGuangWeb/settings.py:143
-msgid "Polish"
-msgstr ""
-
-#: LiGuangWeb/settings.py:144
-msgid "Portuguese"
-msgstr ""
-
-#: LiGuangWeb/settings.py:145
-msgid "Brazilian Portuguese"
-msgstr ""
-
-#: LiGuangWeb/settings.py:146
-msgid "Romanian"
-msgstr ""
-
-#: LiGuangWeb/settings.py:147
-msgid "Russian"
-msgstr ""
-
-#: LiGuangWeb/settings.py:148
-msgid "Slovak"
-msgstr ""
-
-#: LiGuangWeb/settings.py:149
-msgid "Ukrainian"
-msgstr ""
-
-#: LiGuangWeb/settings.py:150
-msgid "Simplified Chinese"
-msgstr ""
+#: ecommerce/models.py:22
+msgid "User List"
+msgstr "电商用户列表"
