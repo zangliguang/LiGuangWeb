@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-09-19 09:00+0000\n"
+"POT-Creation-Date: 2016-10-01 10:49+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,18 +18,78 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ecommerce/config.py:7
+#: BaseService/apps.py:6
+msgid "BaseService"
+msgstr "基础服务"
+
+#: BaseService/apps.py:7
+#, fuzzy
+#| msgid "User List"
+msgid "BaseService List"
+msgstr "电商用户列表"
+
+#: BaseService/models.py:12
+msgid "username"
+msgstr "用户名"
+
+#: BaseService/models.py:15
+msgid "Required. 30 characters or fewer. Letters, digits and @/./+/-/_ only."
+msgstr "大于30个字符"
+
+#: BaseService/models.py:19
+msgid ""
+"Enter a valid username. This value may contain only letters, numbers and @/./"
+"+/-/_ characters."
+msgstr "用户名非法"
+
+#: BaseService/models.py:24
+msgid "A user with that username already exists."
+msgstr "用户名已存在"
+
+#: BaseService/models.py:27
+msgid "first name"
+msgstr "姓"
+
+#: BaseService/models.py:28
+msgid "last name"
+msgstr "名"
+
+#: BaseService/models.py:29
+msgid "email address"
+msgstr "邮箱"
+
+#: BaseService/models.py:30
+msgid "phone number"
+msgstr "电话"
+
+#: BaseService/models.py:31
+msgid "portrait"
+msgstr "头像"
+
+#: BaseService/models.py:34
+msgid "basic user"
+msgstr "通用用户"
+
+#: BaseService/models.py:35
+msgid "basic user list"
+msgstr "通用用户列表"
+
+#: ecommerce/apps.py:7
 msgid "Ecommerce"
 msgstr "电商"
 
-#: ecommerce/config.py:8
+#: ecommerce/apps.py:8
 msgid "Ecommerce List"
 msgstr "电商列表"
 
-#: ecommerce/models.py:21
+#: ecommerce/models.py:22 ecommerce/models.py:34
 msgid "User"
 msgstr "电商用户"
 
-#: ecommerce/models.py:22
+#: ecommerce/models.py:23 ecommerce/models.py:35
 msgid "User List"
 msgstr "电商用户列表"
+
+#: ecommerce/models.py:30
+msgid "Default Business Name"
+msgstr "空业务名"

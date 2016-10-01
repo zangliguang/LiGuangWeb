@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+import uuid
 from datetime import datetime
 
 from django.contrib.auth.models import User
@@ -16,6 +17,18 @@ class user(models.Model):
     birthday = models.DateField(default=datetime.now)
     email = models.EmailField(blank=True)
     image = models.ImageField(blank=True)
+
+    class Meta:
+        verbose_name = _("User")
+        verbose_name_plural = _("User List")
+
+    def __str__(self):
+        return self.user.username
+
+class BusinessProject(models.Model):
+    bid = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
+    name = models.CharField(max_length=20, default=_("Default Business Name"), blank=True)
+
 
     class Meta:
         verbose_name = _("User")
