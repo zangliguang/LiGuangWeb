@@ -28,8 +28,35 @@ class common_user(models.Model):
     last_name = models.CharField(_('last name'), max_length=30, blank=True)
     email = models.EmailField(_('email address'), blank=True)
     phone = models.CharField(_('phone number'), max_length=20, blank=True)
-    portrait_url=models.URLField(_('portrait'), default='http://img5.imgtn.bdimg.com/it/u=4069668134,267237781&fm=21&gp=0.jpg',blank=True)
+    portrait_url = models.URLField(_('portrait'),
+                                   default='http://img5.imgtn.bdimg.com/it/u=4069668134,267237781&fm=21&gp=0.jpg',
+                                   blank=True)
 
     class Meta:
         verbose_name = _("basic user")
         verbose_name_plural = _("basic user list")
+
+
+class common_business_type(models.Model):
+    business_type_id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
+    business_type_name = models.CharField(max_length=20, default=_("Default Business Name"), blank=True)
+
+    class Meta:
+        verbose_name = _("basic business type")
+        verbose_name_plural = _("basic business type list")
+
+    def __str__(self):
+        return self.business_type_name
+
+
+class common_business(models.Model):
+    business_id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
+    business_name = models.CharField(max_length=20, default=_("Default Business Name"), blank=True)
+
+    class Meta:
+        verbose_name = _("basic business")
+        verbose_name_plural = _("basic business list")
+
+    def __str__(self):
+        return self.business_name
+
